@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+backend/venv/
+venv/
+.venv/
+
+# Environment Variables
+.env
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+
+# Generated reports (keep sample only)
+DDR_Report*.pdf
+!DOCS/DDR_Sample_Report.pdf
+!DOCS/DDR_Report*.pdf
+
+# Misc
+*.log
+.gemini/
